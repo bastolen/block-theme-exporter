@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Block Theme Exporter\n"
+"POT-Creation-Date: 2023-07-03 22:13+0200\n"
+"PO-Revision-Date: 2023-07-03 22:13+0200\n"
+"Last-Translator: Bas Tolen <bas@bastolen.nl>\n"
+"Language-Team: Bas Tolen <contact@bastolen.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: block-theme-exporter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-admin.php:28 admin/class-admin.php:29
+msgid "Block Theme Exporter"
+msgstr "Block Theme Exporter"
+
+#: admin/class-admin.php:123
+msgid "Theming import is finished successfully!"
+msgstr "De theming import is succesvol afgerond!"
+
+#: admin/class-admin.php:131
+msgid "Theming import went wrong, the following errors have occurred:"
+msgstr ""
+"De theming import is niet voltooid. De volgende errors hebben zich "
+"voorgedaan:"
+
+#: admin/class-importer.php:62 admin/class-importer.php:80
+#, php-format
+msgid ""
+"Something went wrong with importing styles for the theme %s. The post name "
+"of the failed import is \"%s\"."
+msgstr ""
+"Er is iets fout gegaan met het importeren van de styling voor het thema "
+"“%s”. De post naam van het mislukte onderdeel is “%s”."
+
+#: admin/class-importer.php:91 admin/class-importer.php:110
+#, php-format
+msgid ""
+"Something went wrong with importing the template part \"%s\" for the theme "
+"\"%s\". The post name of the failed import is \"%s\"."
+msgstr ""
+"Er is iets fout gegaan met het importeren van het template onderdeel “%s” "
+"voor het thema “%s”. De post naam van het mislukte onderdeel is “%s”."
+
+#: admin/class-importer.php:121 admin/class-importer.php:140
+#, php-format
+msgid ""
+"Something went wrong with importing the template \"%s\" for the theme "
+"\"%s\". The post name of the failed import is \"%s\"."
+msgstr ""
+"Er is iets fout gegaan met het importeren van de template “%s” voor het "
+"thema “%s”. De post naam van het mislukte onderdeel is “%s”."
+
+#: admin/class-importer.php:151 admin/class-importer.php:166
+#, php-format
+msgid ""
+"Something went wrong with importing the reusable block \"%s\". The post name "
+"of the failed import is \"%s\"."
+msgstr ""
+"Er is iets fout gegaan met het importeren van het herbruikbare blok “%s”. De "
+"post naam van het mislukte onderdeel is “%s”."
+
+#: admin/templates/page.php:2
+msgid "Block Theme exporter"
+msgstr "Block Theme Exporter"
+
+#: admin/templates/page.php:4
+msgid "Import"
+msgstr "Importeren"
+
+#: admin/templates/page.php:12
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Voordat je je importbestand kan uploaden, zul je de volgende fout moeten "
+"oplossen:"
+
+#: admin/templates/page.php:21
+msgid "Choose a file from your computer:"
+msgstr "Kies een bestand van je computer:"
+
+#: admin/templates/page.php:22
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maximum grootte: %s"
+
+#: admin/templates/page.php:30
+msgid "Upload file and import"
+msgstr "Bestand uploaden en importeren"
+
+#: admin/templates/page.php:36
+msgid "Export"
+msgstr "Exporteren"
+
+#: admin/templates/page.php:39
+msgid "Choose the items you want to export from this site:"
+msgstr "Kies de onderdelen die je van deze website wilt exporteren:"
+
+#: admin/templates/page.php:42
+msgid "Global Styles"
+msgstr "Globale stijlen"
+
+#: admin/templates/page.php:46
+msgid "Template Parts"
+msgstr "Template onderdelen"
+
+#: admin/templates/page.php:50
+msgid "Templates"
+msgstr "Templates"
+
+#: admin/templates/page.php:54
+msgid "Reusable Blocks"
+msgstr "Herbruikbare blokken"
+
+#: admin/templates/page.php:60
+msgid "Export Block theme items"
+msgstr "Exporteer blok thema items"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin makes it possible to export changes made locally to a block theme"
+msgstr ""
+"Deze plugin maakt het mogelijk om lokale wijzigingen van de blokken themas "
+"te exporteren"
+
+#. Author of the plugin/theme
+msgid "Bas Tolen"
+msgstr "Bas Tolen"
