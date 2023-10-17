@@ -2,7 +2,7 @@
   "name": "b6n/block-theme-exporter",
   "description": "This WordPress plugin makes it possible to export and import changes made locally to a block theme.",
   "type": "wordpress-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "wordpress",
     "block-theme",

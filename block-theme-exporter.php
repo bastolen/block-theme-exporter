@@ -3,14 +3,14 @@
 /**
  * Plugin Name: Block Theme Exporter
  * Description: This plugin makes it possible to export changes made locally to a block theme
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Bas Tolen
  * Text Domain: b6n-bte
  * Domain Path: /languages
  */
 
 namespace {
-  define('B6N_BTE_VERSION', '1.0.1');
+  define('B6N_BTE_VERSION', '1.0.2');
   define('B6N_BTE_NAME', 'block-theme-exporter');
   define('B6N_BTE_ENTRY', plugin_dir_path(__FILE__));
 

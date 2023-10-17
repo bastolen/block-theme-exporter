@@ -9,10 +9,10 @@
     if (!empty($upload_dir['error'])) {
     ?>
       <div class="error">
-        <p><? __('Before you can upload your import file, you will need to fix the following error:'); ?></p>
+        <p><?= __('Before you can upload your import file, you will need to fix the following error:'); ?></p>
         <p><strong><?= $upload_dir['error']; ?></strong></p>
       </div>
-    <? } else { ?>
+    <?php } else { ?>
       <form enctype="multipart/form-data" id="import-upload-form" method="post" class="wp-upload-form" action="<?= esc_url('tools.php?page=b6n-bte'); ?>">
         <p>
           <?=
@@ -25,11 +25,11 @@
           <input type="file" id="upload" name="file" accept="application/json" />
           <input type="hidden" name="action" value="import" />
           <input type="hidden" name="page" value="b6n-bte" />
-          <? wp_nonce_field('bte-import') ?>
+          <?php wp_nonce_field('bte-import') ?>
         </p>
-        <? submit_button(__('Upload file and import'), 'primary'); ?>
+        <?php submit_button(__('Upload file and import'), 'primary'); ?>
       </form>
-    <? } ?>
+    <?php } ?>
   </section>
   <hr />
   <section>
@@ -56,7 +56,7 @@
       </p>
       <input type="hidden" name="page" value="b6n-bte" />
       <input type="hidden" name="action" value="export" />
-      <? wp_nonce_field('bte-export') ?>
+      <?php wp_nonce_field('bte-export') ?>
       <?php submit_button(__('Export Block theme items', 'b6n-bte'), 'primary'); ?>
     </form>
   </section>
